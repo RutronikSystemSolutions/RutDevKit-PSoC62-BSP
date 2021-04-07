@@ -2,7 +2,7 @@
 
 Rutronik Development Kit Programmable System-on-Chip CY8C6245AZI-S3D72 Board Support Package. 
 
- <img src="images/rutdevkit_model.png" alt="banner" style="zoom:20%;" />
+ <img src="images/rutdevkit_model.png" style="zoom:20%;" />
 
 ------
 
@@ -34,7 +34,7 @@ The evaluation board including the software is for testing purposes only and, be
 
 
 
-<img src="images/rutronik_origin_kaunas.png" alt="banner" style="zoom:55%;" />
+<img src="images/rutronik_origin_kaunas.png" style="zoom:55%;" />
 
 
 
