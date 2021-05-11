@@ -10,29 +10,9 @@ Rutronik Development Kit Programmable System-on-Chip CY8C6245AZI-S3D72 Board Sup
 
 ### MODIFICATION:
 
-1. Find the Makefile and edit this line: 
-
-   ```
-   TARGET=PSOC6-GENERIC
-   ```
-
-2. Delete the folder "TARGET_RutDevKit-PSoC62".
-
-3. Copy the APS6404L-3SQR-ZR.cymem memory configuration file to the directory mtb_shared --> TARGET_PSOC6-GENERIC --> COMPONENT_BSP_DESIGN_MODUS
-
-4. Do all the changes needed.
-
-5. Double click on [Build Targets].
-
-6. Double click on [bsp TARGET_GEN=RutDevKit-PSoC62 DEVICE_GEN=CY8C6245AZI-S3D72].
-
-7. After build is completed successfully open the Makefile again and edit the line: 
-
-   ```
-   TARGET=RutDevKit-PSoC62
-   ```
-
-8. Save the Makefile and build the whole project.
+1. Import RutDevkit-PSoC62 as existing project into yours workspace.
+2. Do all the changes needed with configuration files etc.
+3. Build the whole project.
 
 ### USE THE BSP:
 
