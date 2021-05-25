@@ -34,7 +34,7 @@
 # configurations. If TARGET is manually edited, ensure TARGET_<BSP>.mtb with a 
 # valid URL exists in the application, run 'make getlibs' to fetch BSP contents
 # and update or regenerate launch configurations for your IDE.
-TARGET=RutDevKit-PSoC62
+TARGET=PSOC6-GENERIC
 
 # Name of application (used to derive name of final linked file).
 # 
