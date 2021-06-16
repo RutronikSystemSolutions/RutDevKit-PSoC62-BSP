@@ -86,6 +86,9 @@
                 <Block location="ioss[0].port[10].pin[7]">
                     <Alias value="ARDU_IO6"/>
                 </Block>
+                <Block location="ioss[0].port[11].pin[0]">
+                    <Alias value="ARDU_IO4"/>
+                </Block>
                 <Block location="ioss[0].port[11].pin[1]">
                     <Alias value="FLASH_SSEL"/>
                 </Block>
@@ -173,6 +176,9 @@
                 </Block>
                 <Block location="ioss[0].port[2].pin[6]">
                     <Alias value="uSD_DETECT"/>
+                </Block>
+                <Block location="ioss[0].port[2].pin[7]">
+                    <Alias value="ARDU_IO1"/>
                 </Block>
                 <Block location="ioss[0].port[3].pin[0]">
                     <Alias value="KITPROG_RX"/>

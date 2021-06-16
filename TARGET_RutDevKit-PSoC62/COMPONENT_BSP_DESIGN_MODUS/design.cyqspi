@@ -6,15 +6,15 @@
         <SlotConfig>
             <SlaveSlot>0</SlaveSlot>
             <MemoryId>APS6404L-3SQR-ZR (Uniform)</MemoryId>
-            <MemoryMapped>false</MemoryMapped>
+            <MemoryMapped>true</MemoryMapped>
             <DualQuad>None</DualQuad>
             <StartAddress>0x18000000</StartAddress>
-            <Size>0x10000</Size>
-            <EndAddress>0x1800FFFF</EndAddress>
+            <Size>0x800000</Size>
+            <EndAddress>0x187FFFFF</EndAddress>
             <WriteEnable>true</WriteEnable>
             <Encrypt>false</Encrypt>
-            <DataSelect>SPI_MOSI_MISO_DATA_0_1</DataSelect>
-            <MemoryConfigsPath>../../../RutDevKit-PSoC62-BSP/TARGET_RutDevKit-PSoC62/COMPONENT_BSP_DESIGN_MODUS/APS6404L-3SQR-ZR.cymem</MemoryConfigsPath>
+            <DataSelect>QUAD_SPI_DATA_0_3</DataSelect>
+            <MemoryConfigsPath>../../../RutDevKit-PSoC62_QSPI_PSRAM_XIP/TARGET_RutDevKit-PSoC62/COMPONENT_BSP_DESIGN_MODUS/APS6404L-3SQR-ZR.cymem</MemoryConfigsPath>
             <ConfigDataInFlash>true</ConfigDataInFlash>
             <MergeTimeout>CY_SMIF_MERGE_TIMEOUT_DISABLED</MergeTimeout>
         </SlotConfig>
@@ -26,9 +26,9 @@
             <StartAddress>0x18000000</StartAddress>
             <Size>0x10000</Size>
             <EndAddress>0x1800FFFF</EndAddress>
-            <WriteEnable>true</WriteEnable>
+            <WriteEnable>false</WriteEnable>
             <Encrypt>false</Encrypt>
-            <DataSelect>SPI_MOSI_MISO_DATA_0_1</DataSelect>
+            <DataSelect>QUAD_SPI_DATA_0_3</DataSelect>
             <MemoryConfigsPath>S25HL512T (Uniform)</MemoryConfigsPath>
             <ConfigDataInFlash>true</ConfigDataInFlash>
             <MergeTimeout>CY_SMIF_MERGE_TIMEOUT_DISABLED</MergeTimeout>
