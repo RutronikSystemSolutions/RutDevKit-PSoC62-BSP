@@ -1,7 +1,7 @@
 /******************************************************************************
 * File Name:   main.c
 *
-* Description: This is the source code for the RutDevKit-PSoC62 Hello World
+* Description: This is the source code for the RutDevKit-PSoC62 BSP
 *              Application for ModusToolbox.
 *
 * Related Document: See README.md
