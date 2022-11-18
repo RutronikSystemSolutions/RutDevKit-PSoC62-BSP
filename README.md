@@ -4,19 +4,9 @@ Rutronik Development Kit Programmable System-on-Chip CY8C6245AZI-S3D72 Board Sup
 
  <img src="images/rutdevkit_model.png" style="zoom:20%;" />
 
-------
 
 
-
-### BSP modification using a ModusToolbox
-
-1. Copy the provided "RutDevKit-PSoC62-BSP" into the ModusToolbox workspace directory.
-2. Import the BSP:  **File** > **Import...** > **Existing Projects into Workspace**; Click on **Next**, select the **RutDevKit-PSoC62-BSP** and click **Finish**.
-3. Build the "RutDevKit-PSoC62-BSP" project **Project** > **Build Project**.
-4. Do all the changes needed with configuration files etc.
-5. Build the BSP project **Project** > **Build Project**.
-
-### Using the BSP using a ModusToolbox
+### How to use the RutDevKit-PSoC62 BSP
 
 1. Open The Project Creator: **File** > **New** > **ModusToolbox Application**
 2. Click on the **Import** and **Choose** the **TARGET_RutDevKit-PSoC62** directory. It resides in the provided "RutDevKit-PSoC62-BSP" folder.
